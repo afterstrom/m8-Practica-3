@@ -1,0 +1,45 @@
+body {
+  color: white;
+  background-color: black;
+}
+header {
+  background-color: rgba(64, 144, 82, 0.537);
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  background-color: rgba(83, 148, 95, 0.6);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: rgba(50, 120, 94, 0.641);
+  padding: 10px;
+}
+
+footer {
+  background-color: rgba(53, 148, 93, 0.7);
+  padding: 10px;
+  text-align: center;
+}
+.images {
+  display: flex;
+  gap: 20px;
+}
+nav button {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 1rem;
+  background-color: #ffffffda;
+  color: rgb(9, 140, 2);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #08e600;
+}
