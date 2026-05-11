@@ -4,47 +4,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Cricket</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet2" href="css/style2.css">
+
   <header>
     <h1>Cricket</h1>
   </header>
-  <style>
-    body {
-      background-image: url('img/pexels-shlok-230964119-36230651.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-  </style>
+
+  <nav>
+    <a href="pages/odi.html">ODI</a>
+    <a href="pages/test.html">Test</a>
+    <a href="pages/t20.html">T20</a>
+    <a href="https://www.icc-cricket.com" target="_blank">ICC Official</a>
+  </nav>
+
   <main>
     <h2>Què és el cricket?</h2>
     <p>El cricket és un esport de bat i pilota jugat entre dos equips.</p>
     <p>Cada equip té 11 jugadors al camp.</p>
-    <p>Es puntua colpejant la pilota i corrent entre els wickets. Si la pilota arriba a la línia de límit són 4 punts, i
-      si passa per sobre són 6 punts.</p>
-    <p>Un wicket són tres pals de fusta amb dues barres a dalt. El llançador intenta colpejar-lo per eliminar el
-      batedors.</p>
+    <p>Es puntua colpejant la pilota i corrent entre els wickets. Si la pilota arriba a la línia de límit són 4 punts, i si passa per sobre són 6 punts.</p>
+    <p>Un wicket són tres pals de fusta amb dues barres a dalt. El llançador intenta colpejar-lo per eliminar el batedors.</p>
 
-    <nav> 
-<a href="pages/odi.html">
-  <button class="vista-button"><div>ODI</div></button>
-</a>
-<a href="pages/test.html">
-  <button class="vista-button"><div>Test</div></button>
-</a>
-<a href="pages/t20.html">
-  <button class="vista-button"><div>T20</div></button>
-</a>
-</nav>
+  <div class="cards-container">
+  <a href="pages/odi.html" class="card-link">
+    <div class="card">
+      <img src="img/pexels-shlok-230964119-36230651.jpg" alt="ODI Cricket">
+      <h3>ODI Cricket</h3>
+      <p>Els ODI són partits de 50 overs per equip que duren un dia sencer.</p>
+      <button class="card-btn">Llegir més</button>
+    </div>
+  </a>
 
-    <h3>Official Links</h3>
-    <a href="https://www.icc-cricket.com">ICC Official Website</a>
+  <a href="pages/t20.html" class="card-link">
+    <div class="card">
+      <img src="img/pexels-shlok-230964119-36230651.jpg" alt="T20 Cricket">
+      <h3>T20 Cricket</h3>
+      <p>El T20 és el format més curt amb 20 overs per equip, ple d'acció explosiva.</p>
+      <button class="card-btn">Llegir més</button>
+    </div>
+  </a>
 
+  <a href="pages/test.html" class="card-link">
+    <div class="card">
+      <img src="img/pexels-shlok-230964119-36230651.jpg" alt="Test Cricket">
+      <h3>Test Cricket</h3>
+      <p>Els partits de Test són el format més llarg, que pot durar fins a cinc dies.</p>
+      <button class="card-btn">Llegir més</button>
+    </div>
+  </a>
+</div>
+  
   </main>
 
   <footer>
@@ -52,5 +65,4 @@
   </footer>
 
 </body>
-
-</html>
+</html> 
